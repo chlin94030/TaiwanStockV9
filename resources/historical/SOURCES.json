@@ -1,0 +1,55 @@
+{
+  "issuer": "2330.TW",
+  "capture_date": "2026-09-30",
+  "retrieval": "Official TWSE JSON opened with web.run. OHLCV numeric fields transcribed into CSV; direct container HTTP unavailable.",
+  "not_selection_backtest": true,
+  "selection": "Only successfully retrievable official monthly responses, not randomly selected equities.",
+  "price_coordinate": "RAW exchange monthly quotes. No adjusted total-return series is supplied.",
+  "files": [
+    {
+      "file": "TWSE_2330_202409.csv",
+      "n": 20,
+      "source": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?date=20240901&response=json&stockNo=2330",
+      "sha256": "3bc59e41fae577bacf58fdbd5aea71ebcbe13f54267c3aa067cde0d9265a29a5",
+      "source_rows": 20
+    },
+    {
+      "file": "TWSE_2330_202410.csv",
+      "n": 19,
+      "source": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?date=20241001&response=json&stockNo=2330",
+      "sha256": "8f2c4ef523a8102a9e9c0ed87444e43ebab6890cb48730292600bd94f9f6ba30",
+      "source_rows": 19
+    },
+    {
+      "file": "TWSE_2330_202505.csv",
+      "n": 20,
+      "source": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?date=20250501&response=json&stockNo=2330",
+      "sha256": "1f418030b8ff8a98fb1ee4417c1ecd4600e0423842b73052941db8f9bb0fda5d",
+      "source_rows": 20
+    },
+    {
+      "file": "TWSE_2330_202405.csv",
+      "n": 22,
+      "source": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?date=20240501&response=json&stockNo=2330",
+      "sha256": "ca44ccaa873fac9b8793ff12f52624b6c15512ffbe0636f52cdfd9961848e0db",
+      "source_rows": 22
+    }
+  ],
+  "corporate_action_sources": [
+    "https://investor.tsmc.com/chinese/dividends"
+  ],
+  "notes": [
+    "2024-09-12 ex-dividend NT$4.00013820 per share; exclude cross-event windows from raw-return execution comparisons.",
+    "2024-09-17, 2024-10-02/03, 2024-10-10/31, 2025-05-01/30 are absent from these official quote tables. No extra bars are invented.",
+    "Month gaps are not concatenated as consecutive sessions. No OOS prediction, multi-stock coverage or actual order fills are certified."
+  ],
+  "retrieval_attempts_incomplete": [
+    "202404 2330",
+    "202406 2330",
+    "202407 2330",
+    "202408 2330",
+    "202303 2330",
+    "202210 2330",
+    "202505 3017"
+  ]
+}

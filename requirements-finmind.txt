@@ -1,0 +1,8 @@
+# Alternative install profile for hosts where Yahoo/native wheels cannot install.
+# FinMind token + access to raw and adjusted datasets, or verified local cache, required.
+# Streamlit Cloud: use this file's contents as requirements.txt for that deployment.
+streamlit>=1.39,<2.0
+pandas>=2.1,<3.0
+numpy>=1.26,<3.0
+plotly>=5.22,<7.0
+requests>=2.31,<3.0

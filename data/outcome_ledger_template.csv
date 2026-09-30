@@ -1,0 +1,1 @@
+event_id,ticker,policy_id,cost_model_id,horizon_days,signal_at,features_available_at,evaluation_at,label_available_at,setup,regime,filled,strategy_net_return,asset_net_return,benchmark_net_return,return20,return60,return120,atr_fraction,rvol,extension_atr,log_avg_trading_value,market_return20,revenue_growth,eps_growth,roe,pb,foreign_5d_intensity,trust_5d_intensity
